@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hexo on XShaw</title>
+        <link>https://example.com/tags/hexo/</link>
+        <description>Recent content in Hexo on XShaw</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>XShaw</copyright>
+        <lastBuildDate>Thu, 03 Aug 2023 14:57:06 +0800</lastBuildDate><atom:link href="https://example.com/tags/hexo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>推荐一个Hexo主题：Stellar</title>
+        <link>https://example.com/p/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAhexo%E4%B8%BB%E9%A2%98stellar/</link>
+        <pubDate>Thu, 03 Aug 2023 14:57:06 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAhexo%E4%B8%BB%E9%A2%98stellar/</guid>
+        <description>&lt;p&gt;在某次虫洞穿越中（其实就是&lt;a class=&#34;link&#34; href=&#34;https://foreverblog.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;十年之约&lt;/a&gt;的搞的&lt;a class=&#34;link&#34; href=&#34;http://foreverblog.cn/go.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;虫洞&lt;/a&gt;，无聊的时候就用它在许多人的博客之间穿梭，你可以看到各式各样的博客、主页），我进入了&lt;a class=&#34;link&#34; href=&#34;https://blog.xsot.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;星辰日记&lt;/a&gt;这个博客，一下子就被这种样式所吸引：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/08/03/pPiymbn.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;星辰日记&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;后来&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;我便抛弃了 VitePress，又用上了 Hexo（&lt;/p&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;这款主题叫&lt;a class=&#34;link&#34; href=&#34;https://github.com/xaoxuu/hexo-theme-stellar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stellar&lt;/a&gt;（会看标题的都知道了吧），好像还和著名 Hexo 主题 Volantis 是一个作者，而且这款主题目前好像还没什么人气。&lt;/p&gt;
+&lt;p&gt;这款主题最吸引我的地方就是它的侧边栏，简洁大气，不像&lt;a class=&#34;link&#34; href=&#34;https://butterfly.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Butterfly&lt;/a&gt;那样说不出的繁杂。&lt;/p&gt;
+&lt;p&gt;而且这种侧边栏巧妙地将导航栏结合，且可以高度自定义化，大量的空间留白和圆角给人一种舒适感。&lt;/p&gt;
+&lt;p&gt;其他的该有它都有，自带的标签甚至高达 32 种，自定义程度也极高，同时还独创了其它 Hexo 主题所没有的 Wiki 系统（虽然目前我还用不到）&lt;/p&gt;
+&lt;p&gt;官方文档：&lt;a class=&#34;link&#34; href=&#34;https://xaoxuu.com/wiki/stellar/#start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://xaoxuu.com/wiki/stellar/#start&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;稍后我可能会出一期或一系列详细的 Hexo 搭建教程和这个主题的相关美化，敬请关注！&lt;/del&gt;（现在我已经更换到了 Hugo，不想写了）&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hello World</title>
+        <link>https://example.com/p/hello-world/</link>
+        <pubDate>Tue, 01 Aug 2023 12:00:00 +0800</pubDate>
+        
+        <guid>https://example.com/p/hello-world/</guid>
+        <description>&lt;img src="https://example.com/p/hello-world/helloworld.png" alt="Featured image of post Hello World" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, world!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;建博客快有两年了，期间换了很多主题、域名，尝试过自己写一个博客网站，遇到了许许多多的困难、也曾丢失了很多博客。&lt;/p&gt;
+&lt;p&gt;以下是近期改动:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2023 年 6 月 20 号，由于域名（&lt;code&gt;xshaw.top&lt;/code&gt;）过期，我被迫又用上了 GitHub Pages 给的域名，也就是现在用的&lt;code&gt;imtgs.github.io&lt;/code&gt;，我思来想去，决定再次用上 Jakyll，并且又用了曾经用过的主题 TMaize，这款主题曾经陪伴了我一些时光，久违了！&lt;/li&gt;
+&lt;li&gt;2023 年 7 月 23 号，我正在摸索安装 archlinux，找到了一个文档网站，进去一眼就被这页面所诱惑，这不就是搭建博客的最好模板吗？！找了半天，终于知道这是用 VitePress 生成的，我迫不及待开始研究它，&lt;del&gt;现在你看到的网页就是由它生成的&lt;/del&gt;。想装 arch 的可以看看这个网站，&lt;a class=&#34;link&#34; href=&#34;https://arch.icekylin.online/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;archlinux 简明指南&lt;/a&gt;，内容也很不错！&lt;/li&gt;
+&lt;li&gt;2023 年 8 月 2 日，由于我这人爱折腾，VitePress 又过于文档化，我决定用上以前用过的&lt;a class=&#34;link&#34; href=&#34;https://hexo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hexo&lt;/a&gt;来生成我的博客。&lt;/li&gt;
+&lt;li&gt;不知道为何用 Hexo 生成的博客文章列表不显示了，我思来想去决定试一试 Hugo。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

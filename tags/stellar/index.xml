@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Stellar on XShaw</title>
+        <link>https://example.com/tags/stellar/</link>
+        <description>Recent content in Stellar on XShaw</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>XShaw</copyright>
+        <lastBuildDate>Thu, 03 Aug 2023 14:57:06 +0800</lastBuildDate><atom:link href="https://example.com/tags/stellar/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>推荐一个Hexo主题：Stellar</title>
+        <link>https://example.com/p/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAhexo%E4%B8%BB%E9%A2%98stellar/</link>
+        <pubDate>Thu, 03 Aug 2023 14:57:06 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAhexo%E4%B8%BB%E9%A2%98stellar/</guid>
+        <description>&lt;p&gt;在某次虫洞穿越中（其实就是&lt;a class=&#34;link&#34; href=&#34;https://foreverblog.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;十年之约&lt;/a&gt;的搞的&lt;a class=&#34;link&#34; href=&#34;http://foreverblog.cn/go.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;虫洞&lt;/a&gt;，无聊的时候就用它在许多人的博客之间穿梭，你可以看到各式各样的博客、主页），我进入了&lt;a class=&#34;link&#34; href=&#34;https://blog.xsot.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;星辰日记&lt;/a&gt;这个博客，一下子就被这种样式所吸引：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/08/03/pPiymbn.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;星辰日记&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;后来&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;我便抛弃了 VitePress，又用上了 Hexo（&lt;/p&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;这款主题叫&lt;a class=&#34;link&#34; href=&#34;https://github.com/xaoxuu/hexo-theme-stellar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stellar&lt;/a&gt;（会看标题的都知道了吧），好像还和著名 Hexo 主题 Volantis 是一个作者，而且这款主题目前好像还没什么人气。&lt;/p&gt;
+&lt;p&gt;这款主题最吸引我的地方就是它的侧边栏，简洁大气，不像&lt;a class=&#34;link&#34; href=&#34;https://butterfly.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Butterfly&lt;/a&gt;那样说不出的繁杂。&lt;/p&gt;
+&lt;p&gt;而且这种侧边栏巧妙地将导航栏结合，且可以高度自定义化，大量的空间留白和圆角给人一种舒适感。&lt;/p&gt;
+&lt;p&gt;其他的该有它都有，自带的标签甚至高达 32 种，自定义程度也极高，同时还独创了其它 Hexo 主题所没有的 Wiki 系统（虽然目前我还用不到）&lt;/p&gt;
+&lt;p&gt;官方文档：&lt;a class=&#34;link&#34; href=&#34;https://xaoxuu.com/wiki/stellar/#start&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://xaoxuu.com/wiki/stellar/#start&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;稍后我可能会出一期或一系列详细的 Hexo 搭建教程和这个主题的相关美化，敬请关注！&lt;/del&gt;（现在我已经更换到了 Hugo，不想写了）&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

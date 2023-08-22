@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Noteonline on XShaw</title>
+        <link>https://example.com/tags/noteonline/</link>
+        <description>Recent content in Noteonline on XShaw</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>XShaw</copyright>
+        <lastBuildDate>Wed, 16 Aug 2023 16:14:41 +0800</lastBuildDate><atom:link href="https://example.com/tags/noteonline/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Noteonline 正式上线</title>
+        <link>https://example.com/p/noteonline-%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF/</link>
+        <pubDate>Wed, 16 Aug 2023 16:14:41 +0800</pubDate>
+        
+        <guid>https://example.com/p/noteonline-%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF/</guid>
+        <description>&lt;img src="https://example.com/p/noteonline-%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF/2023-08-22_17-45.png" alt="Featured image of post Noteonline 正式上线" /&gt;&lt;p&gt;8 月 15 号，我花了一个下午的时间做了一个类似于&lt;a class=&#34;link&#34; href=&#34;https://note.ms&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Note.ms&lt;/a&gt;的网站：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/08/16/pPQjIJK.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;它的名字叫 Noteonline（随便乱取的）。为什么要做呢？看看 Note.ms 现在的局势就知道了，各种脚本盘踞着各个页面，“毁灭计划”成员铺天盖地，稍不注意你的页面就会被清掉，根本来不及备份&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;大丈夫岂能郁郁久居于他人之下！虽然也有其他类似 Note.ms 的网站，但还是自己的好!&lt;/p&gt;
+&lt;p&gt;接下来我遇到了一个问题，Github 上类似 Note.ms 的项目使用的都是 php，需要在服务器上部署，但我可是典型的白嫖怪，怎么可能有服务器，只好选择其他办法。正好我以前配置过&lt;a class=&#34;link&#34; href=&#34;https://waline.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Waline&lt;/a&gt;评论系统，对&lt;a class=&#34;link&#34; href=&#34;https://leancloud.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LeanCloud&lt;/a&gt;记忆犹深，脑海中便突然浮现出一个想法：能否使用 LeanCloud 来储存页面的数据，只用 Html 和 Js 实现网站功能？&lt;/p&gt;
+&lt;p&gt;理论可行，实践不再赘述，最后成功实现，目前功能如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你可以在地址（&lt;code&gt;https://note.xshaw.xyz&lt;/code&gt;）后任意添加内容来创建一个页面（不限制任何符号，甚至你还可以创建分页、中文链接，但一些特殊表示除外，比如&lt;code&gt;@info&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;你可以任何页面中的编辑框里写笔记，你的笔记将会实时存储在云端，之后再访问你编辑过的页面便可再次看到你写的笔记。&lt;/li&gt;
+&lt;li&gt;你可以在一个页面的链接后面加上&lt;code&gt;@info&lt;/code&gt;（根页面请加&lt;code&gt;/@info&lt;/code&gt;）以查看该页面的创建时间、更新时间、更新者的一些信息（ip 地址等，所以请不要试图在这里散播违法内容！）、查看次数、编辑次数等。&lt;/li&gt;
+&lt;li&gt;支持夜间模式（其实是 Vue 内置的）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;地址是&lt;a class=&#34;link&#34; href=&#34;https://note.xshaw.xyz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://note.xshaw.xyz&lt;/a&gt;，在这里感谢&lt;a class=&#34;link&#34; href=&#34;https://vercel.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vercel&lt;/a&gt;提供的免费托管服务&lt;/p&gt;
+&lt;p&gt;PPT 功能：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;支持 MD 语法&lt;/li&gt;
+&lt;li&gt;暂时想不出别的了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;欢迎在&lt;a class=&#34;link&#34; href=&#34;https://note.xshaw.xyz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Noteonline&lt;/a&gt;讨论区或这里的评论区报告 Bug 和申请新功能！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

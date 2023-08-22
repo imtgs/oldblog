@@ -17,7 +17,7 @@
     <loc>https://example.com/tags/noteonline/</loc>
     <lastmod>2023-08-16T16:14:41+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/noteonline-%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF/</loc>
+    <loc>https://example.com/p/noteonline/</loc>
     <lastmod>2023-08-16T16:14:41+08:00</lastmod>
   </url><url>
     <loc>https://example.com/post/</loc>
@@ -38,7 +38,7 @@
     <loc>https://example.com/tags/jsdelivr/</loc>
     <lastmod>2023-08-05T15:12:39+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/jsdelivr%E7%9A%84%E6%9B%BF%E4%BB%A3%E5%93%81%E6%B8%BA%E8%BD%AF%E5%85%AC%E7%9B%8A-cdn/</loc>
+    <loc>https://example.com/p/onmicrosoft/</loc>
     <lastmod>2023-08-05T15:12:39+08:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/%E5%88%86%E4%BA%AB/</loc>
@@ -53,7 +53,7 @@
     <loc>https://example.com/tags/stellar/</loc>
     <lastmod>2023-08-03T14:57:06+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAhexo%E4%B8%BB%E9%A2%98stellar/</loc>
+    <loc>https://example.com/p/hexo-stellar/</loc>
     <lastmod>2023-08-03T14:57:06+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/arch/</loc>

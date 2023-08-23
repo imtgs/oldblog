@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2023-08-16T16:14:41+08:00</lastmod>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/arduino/</loc>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2023-08-16T16:14:41+08:00</lastmod>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/esp8266/</loc>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2023-08-23T16:21:34+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/leancloud/</loc>
     <lastmod>2023-08-16T16:14:41+08:00</lastmod>
@@ -18,12 +36,6 @@
     <lastmod>2023-08-16T16:14:41+08:00</lastmod>
   </url><url>
     <loc>https://example.com/p/noteonline/</loc>
-    <lastmod>2023-08-16T16:14:41+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2023-08-16T16:14:41+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
     <lastmod>2023-08-16T16:14:41+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/vercel/</loc>

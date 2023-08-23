@@ -7,7 +7,136 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>XShaw</copyright>
-        <lastBuildDate>Wed, 16 Aug 2023 16:14:41 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 23 Aug 2023 16:21:34 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>搭建 ESP8266 NodeMCU &#43; Arduino 开发环境</title>
+        <link>https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Wed, 23 Aug 2023 16:21:34 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+        <description>&lt;p&gt;暑假闲得无聊在淘宝上买了个 ESP8266 NodeMCU 开发板，主要是它性能又好又不贵，信泰微电子这家店的 ESP8266 有时候活动只要 6 块钱就能拿下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/20230823162631Aicy.png&#34;
+	width=&#34;800&#34;
+	height=&#34;800&#34;
+	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/20230823162631Aicy_hu385dc55327372b24618366c7f07d3d41_648895_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/20230823162631Aicy_hu385dc55327372b24618366c7f07d3d41_648895_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;拿到手上就急着想试试了，看了看评论好像需要用 Arduino 开发（&lt;em&gt;还需要学 C 语言 555&lt;/em&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;安装-arduino&#34;&gt;安装 Arduino&lt;/h2&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;前往官方&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载页面&lt;/a&gt;下载最新版即可，一般只需要下载最新版的 &lt;code&gt;Win 10 and newer, 64 bits&lt;/code&gt;，下好后双击打开一直下一步就行。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-39.png&#34;
+	width=&#34;931&#34;
+	height=&#34;546&#34;
+	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-39_hu42ee59cb0ee2902912b7313fac9afa2d_87947_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-39_hu42ee59cb0ee2902912b7313fac9afa2d_87947_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
+&lt;p&gt;一般的 Linux 发行版本依然需要前往官方&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载页面&lt;/a&gt;，只需要下载最新版的 &lt;code&gt;AppImage 64 bits (X86-64)&lt;/code&gt;，双击打开即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-46.png&#34;
+	width=&#34;919&#34;
+	height=&#34;545&#34;
+	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-46_hu26e3b8167ccbddc1fe47726ca08cb906_87535_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-46_hu26e3b8167ccbddc1fe47726ca08cb906_87535_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;168&#34;
+		data-flex-basis=&#34;404px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;而 Arch 可以直接使用 yay 安装&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yay -S arduino-ide-bin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;macos&#34;&gt;MacOS&lt;/h3&gt;
+&lt;p&gt;依然需要前往官方&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载页面&lt;/a&gt;，按照对应条件下载安装包。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-59.png&#34;
+	width=&#34;932&#34;
+	height=&#34;551&#34;
+	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-59_hu105c585e8b4975049086641c2a6d6fbc_86217_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-59_hu105c585e8b4975049086641c2a6d6fbc_86217_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;405px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安装-ch340-驱动&#34;&gt;安装 CH340 驱动&lt;/h2&gt;
+&lt;h3 id=&#34;windows--macos&#34;&gt;Windows &amp;amp; MacOS&lt;/h3&gt;
+&lt;p&gt;Windows 官方驱动：&lt;a class=&#34;link&#34; href=&#34;https://www.wch.cn/download/CH341SER_EXE.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.wch.cn/download/CH341SER_EXE.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MacOS 官方驱动：&lt;a class=&#34;link&#34; href=&#34;https://www.wch.cn/download/CH341SER_MAC_ZIP.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.wch.cn/download/CH341SER_MAC_ZIP.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;linux-1&#34;&gt;Linux&lt;/h3&gt;
+&lt;p&gt;较新的 Linux 内核已经内置了 CH340 的驱动，无需自行安装&lt;/p&gt;
+&lt;h2 id=&#34;配置-arduino&#34;&gt;配置 Arduino&lt;/h2&gt;
+&lt;p&gt;默认的 Arduino 不自带 ESP8266 的开发环境，需要手动安装。这一步是通用的，不区分操作系统。&lt;/p&gt;
+&lt;p&gt;首先先设置语言到中文，进入 Arduino，依次点击 &lt;code&gt;File =&amp;gt; Preferences&lt;/code&gt;，或者直接&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;,&lt;/kbd&gt;，在 &lt;code&gt;Language&lt;/code&gt; 选项中选择 &lt;code&gt;中文（简体）&lt;/code&gt;，在点右下角的 &lt;code&gt;OK&lt;/code&gt;，重新加载后便是中文界面了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_17-18.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1035&#34;
+	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_17-18_hu25e4e22a6709166b08b53016d01839b6_154867_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_17-18_hu25e4e22a6709166b08b53016d01839b6_154867_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;185&#34;
+		data-flex-basis=&#34;445px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接下来在 &lt;code&gt;首选项&lt;/code&gt; 的 &lt;code&gt;其他开发版管理器地址&lt;/code&gt; 项中填入 &lt;code&gt;http://arduino.esp8266.com/stable/package_esp8266com_index.json&lt;/code&gt;，然后 &lt;code&gt;确认&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;然后我们点击 &lt;code&gt;工具 =&amp;gt; 开发板 =&amp;gt; 开发板管理器&lt;/code&gt;，并在输入框中输入 &lt;code&gt;ESP8266&lt;/code&gt;，点击下面的 &lt;code&gt;安装&lt;/code&gt;，等待下载（注意：据相关文献考证，有 99% 的概率会安装失败（，解决方法最简单的就是魔法上网）&lt;/p&gt;
+&lt;p&gt;接下来就可以插上你的开发板了，不会还有人不会插数据线吧（&lt;/p&gt;
+&lt;p&gt;现在 &lt;code&gt;工具 =&amp;gt; 开发板 =&amp;gt; esp8266&lt;/code&gt;，选择 &lt;code&gt;NodeMCU 1.0(ESP-12E Module)&lt;/code&gt;，&lt;code&gt;工具 =&amp;gt; 端口&lt;/code&gt; 选择唯一的那一个（如果你有两个开发板，建议先拔掉一个，以免搞混）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你目前的操作系统是 Linux，看不见端口是正常现象，解决方法是执行以下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo chmod &lt;span class=&#34;m&#34;&gt;777&lt;/span&gt; /dev/ttyUSB0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;不过每次插上 ESP8266 都需要重新执行（Linux の痛）&lt;/p&gt;
+&lt;h2 id=&#34;烧入手法必读&#34;&gt;烧入手法（必读！！！）&lt;/h2&gt;
+&lt;p&gt;仔细观察你会发现，ESP8266 开发板上有两个按钮，分别是 &lt;code&gt;FLASH&lt;/code&gt; 和 &lt;code&gt;RST&lt;/code&gt;，在即将烧入代码之前，需要按住 &lt;code&gt;FLASH&lt;/code&gt; 不松，然后按一下 &lt;code&gt;RST&lt;/code&gt; 松手，此时 &lt;code&gt;FLASH&lt;/code&gt; 还不能松，这时候点击 Arduino 左上角的&lt;code&gt;-&amp;gt;&lt;/code&gt;开始烧入，待到烧入完成后再松开 &lt;code&gt;FLASH&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;测试&#34;&gt;测试&lt;/h2&gt;
+&lt;p&gt;安装 ESP8266 开发环境后，Arduino里会有几个示例文件供我们测试。&lt;/p&gt;
+&lt;p&gt;点击 &lt;code&gt;文件 =&amp;gt; 示例 =&amp;gt; ESP8266&lt;/code&gt;，选择 &lt;code&gt;Blink&lt;/code&gt;，之后按照烧入手法烧入程序，你将看到你的开发板会一直闪烁亮蓝光，此时你已经配置好了，可以继续开发了！&lt;/p&gt;
+&lt;h2 id=&#34;参考链接&#34;&gt;参考链接&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/weixin_49861340/article/details/123792561&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arduino + ESP8266 NodeMcu（超详细）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/JAZZSOLDIER/article/details/70169732&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CH340驱动（含各平台）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Software | Arduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Noteonline 正式上线</title>
         <link>https://example.com/p/noteonline/</link>
         <pubDate>Wed, 16 Aug 2023 16:14:41 +0800</pubDate>

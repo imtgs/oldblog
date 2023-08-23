@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>XShaw</copyright>
-        <lastBuildDate>Wed, 16 Aug 2023 16:14:41 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 23 Aug 2023 16:21:34 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>记录</title>
+        <link>https://example.com/categories/%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Wed, 23 Aug 2023 16:21:34 +0800</pubDate>
+        
+        <guid>https://example.com/categories/%E8%AE%B0%E5%BD%95/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>项目</title>
         <link>https://example.com/categories/%E9%A1%B9%E7%9B%AE/</link>
         <pubDate>Wed, 16 Aug 2023 16:14:41 +0800</pubDate>

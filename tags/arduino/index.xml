@@ -9,15 +9,15 @@
         <copyright>XShaw</copyright>
         <lastBuildDate>Wed, 23 Aug 2023 16:21:34 +0800</lastBuildDate><atom:link href="https://example.com/tags/arduino/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>搭建 ESP8266 NodeMCU &#43; Arduino 开发环境</title>
-        <link>https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+        <link>https://example.com/p/esp8266-arduino/</link>
         <pubDate>Wed, 23 Aug 2023 16:21:34 +0800</pubDate>
         
-        <guid>https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+        <guid>https://example.com/p/esp8266-arduino/</guid>
         <description>&lt;p&gt;暑假闲得无聊在淘宝上买了个 ESP8266 NodeMCU 开发板，主要是它性能又好又不贵，信泰微电子这家店的 ESP8266 有时候活动只要 6 块钱就能拿下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/20230823162631Aicy.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/esp8266-arduino/20230823162631Aicy.png&#34;
 	width=&#34;800&#34;
 	height=&#34;800&#34;
-	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/20230823162631Aicy_hu385dc55327372b24618366c7f07d3d41_648895_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/20230823162631Aicy_hu385dc55327372b24618366c7f07d3d41_648895_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://example.com/p/esp8266-arduino/20230823162631Aicy_hu385dc55327372b24618366c7f07d3d41_648895_480x0_resize_box_3.png 480w, https://example.com/p/esp8266-arduino/20230823162631Aicy_hu385dc55327372b24618366c7f07d3d41_648895_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -31,10 +31,10 @@
 &lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
 &lt;p&gt;前往官方&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;下载页面&lt;/a&gt;下载最新版即可，一般只需要下载最新版的 &lt;code&gt;Win 10 and newer, 64 bits&lt;/code&gt;，下好后双击打开一直下一步就行。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-39.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/esp8266-arduino/2023-08-23_16-39.png&#34;
 	width=&#34;931&#34;
 	height=&#34;546&#34;
-	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-39_hu42ee59cb0ee2902912b7313fac9afa2d_87947_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-39_hu42ee59cb0ee2902912b7313fac9afa2d_87947_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://example.com/p/esp8266-arduino/2023-08-23_16-39_hu42ee59cb0ee2902912b7313fac9afa2d_87947_480x0_resize_box_3.png 480w, https://example.com/p/esp8266-arduino/2023-08-23_16-39_hu42ee59cb0ee2902912b7313fac9afa2d_87947_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -46,10 +46,10 @@
 &lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
 &lt;p&gt;一般的 Linux 发行版本依然需要前往官方&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;下载页面&lt;/a&gt;，只需要下载最新版的 &lt;code&gt;AppImage 64 bits (X86-64)&lt;/code&gt;，双击打开即可。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-46.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/esp8266-arduino/2023-08-23_16-46.png&#34;
 	width=&#34;919&#34;
 	height=&#34;545&#34;
-	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-46_hu26e3b8167ccbddc1fe47726ca08cb906_87535_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-46_hu26e3b8167ccbddc1fe47726ca08cb906_87535_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://example.com/p/esp8266-arduino/2023-08-23_16-46_hu26e3b8167ccbddc1fe47726ca08cb906_87535_480x0_resize_box_3.png 480w, https://example.com/p/esp8266-arduino/2023-08-23_16-46_hu26e3b8167ccbddc1fe47726ca08cb906_87535_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -70,10 +70,10 @@
 &lt;/div&gt;&lt;h3 id=&#34;macos&#34;&gt;MacOS&lt;/h3&gt;
 &lt;p&gt;依然需要前往官方&lt;a class=&#34;link&#34; href=&#34;https://www.arduino.cc/en/software&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;下载页面&lt;/a&gt;，按照对应条件下载安装包。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-59.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/esp8266-arduino/2023-08-23_16-59.png&#34;
 	width=&#34;932&#34;
 	height=&#34;551&#34;
-	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-59_hu105c585e8b4975049086641c2a6d6fbc_86217_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_16-59_hu105c585e8b4975049086641c2a6d6fbc_86217_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://example.com/p/esp8266-arduino/2023-08-23_16-59_hu105c585e8b4975049086641c2a6d6fbc_86217_480x0_resize_box_3.png 480w, https://example.com/p/esp8266-arduino/2023-08-23_16-59_hu105c585e8b4975049086641c2a6d6fbc_86217_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -93,10 +93,10 @@
 &lt;h2 id=&#34;配置-arduino&#34;&gt;配置 Arduino&lt;/h2&gt;
 &lt;p&gt;默认的 Arduino 不自带 ESP8266 的开发环境，需要手动安装。这一步是通用的，不区分操作系统。&lt;/p&gt;
 &lt;p&gt;首先先设置语言到中文，进入 Arduino，依次点击 &lt;code&gt;File =&amp;gt; Preferences&lt;/code&gt;，或者直接&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;,&lt;/kbd&gt;，在 &lt;code&gt;Language&lt;/code&gt; 选项中选择 &lt;code&gt;中文（简体）&lt;/code&gt;，在点右下角的 &lt;code&gt;OK&lt;/code&gt;，重新加载后便是中文界面了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_17-18.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://example.com/p/esp8266-arduino/2023-08-23_17-18.png&#34;
 	width=&#34;1920&#34;
 	height=&#34;1035&#34;
-	srcset=&#34;https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_17-18_hu25e4e22a6709166b08b53016d01839b6_154867_480x0_resize_box_3.png 480w, https://example.com/p/%E6%90%AD%E5%BB%BA-esp8266-nodemcu--arduino-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/2023-08-23_17-18_hu25e4e22a6709166b08b53016d01839b6_154867_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://example.com/p/esp8266-arduino/2023-08-23_17-18_hu25e4e22a6709166b08b53016d01839b6_154867_480x0_resize_box_3.png 480w, https://example.com/p/esp8266-arduino/2023-08-23_17-18_hu25e4e22a6709166b08b53016d01839b6_154867_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
